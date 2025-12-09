@@ -2,20 +2,20 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Afan",
+  lastName: "Khan",
   name: `Selene Yu`,
-  role: "Design Engineer",
+  role: "Video Content Researcher & Scriptwriter",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "afankhangfx@gmail.com",
+  location: "Asia/Pakistan", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about creativity and Writing</>,
 };
 
 const social: Social = [
@@ -26,25 +26,25 @@ const social: Social = [
     name: "GitHub",
     icon: "github",
     link: "https://github.com/once-ui-system",
-    essential: true,
+    essential: false,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "www.linkedin.com/in/afan-khan-5b71b0376",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/afan_the_great_researcher/",
     essential: false,
   },
   {
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-    essential: true,
+    essential: false,
   },
   {
     name: "Email",
@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Scripting the Search for Truth.</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Afan Khan, a Video Content Specialist Working With <Text as="span" size="xl" weight="strong">Mr Falex</Text>, where I craft compelling <br /> scripts from complex research.
 </>
   ),
 };
@@ -102,9 +102,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Afan Khan is a researcher and scriptwriter 
+        specializing in high-impact digital narratives.
+        He transforms complex investigations and dense historical 
+        records into simple, compelling video scripts for the Mr Falex channel. 
+        His work spans deep factual research, dramatic storytelling, and the convergence 
+        of data accuracy and audience engagement.
       </>
     ),
   },
@@ -113,17 +116,18 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Mr Falex",
+        timeframe: "2024 - Present",
+        role: "Senior Researcher and Scriptwriter",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Scripted a three-part documentary series on 
+            regional history which garnered over 2 million combined views 
+            and contributed to a 25% growth in channel subscribers within two months.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Scripted the channel's most successful video, "Who Really Runs Karachi? (Documentary)," 
+            which achieved 1.1 million views and contributed to significant channel growth.
           </>,
         ],
         images: [
@@ -137,17 +141,18 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Fing",
+        timeframe: "2023 - 2024",
+        role: "Researcher and scriptwriter",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed and scripted the research for the viral video "Horrifying Tale of Josef Fritzl," 
+            which is currently the channel's most viewed piece with over 3.4 million views.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Contributed to the research and script production
+            that helped the channel achieve 1.8 million views on the documentary 
+            "335 DAYS OF TORTURE ON LIVE TV || Tragic Tale of Nasubi."
           </>,
         ],
         images: [],
@@ -159,12 +164,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University of Comsats",
         description: <>Studied software engineering.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied research and script writing.</>,
       },
     ],
   },
@@ -175,11 +180,11 @@ const about: About = {
       {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to do OSINT.</>
         ),
         tags: [
           {
-            name: "Figma",
+            name: "OSINT",
             icon: "figma",
           },
         ],
@@ -202,19 +207,19 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Researching trough different websites and apps.</>
         ),
         tags: [
           {
-            name: "JavaScript",
+            name: "Reddit",
             icon: "javascript",
           },
           {
-            name: "Next.js",
+            name: "Youtube",
             icon: "nextjs",
           },
           {
-            name: "Supabase",
+            name: "Dark Web",
             icon: "supabase",
           },
         ],
